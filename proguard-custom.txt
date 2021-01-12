@@ -106,6 +106,8 @@
 -dontwarn android.net.http.*
 -dontwarn okhttp3.internal.huc.*
 -dontwarn okhttp3.internal.platform.ConscryptPlatform
+-dontwarn okio.DeflaterSink
+-dontwarn okio.Okio
 
 # These clases contain references to cordova webView
 -keep class com.ionicframework.cordova.webview.** {*; }
